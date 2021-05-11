@@ -1,0 +1,39 @@
+/* Create your test CSS here */
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+   
+  }
+
+
+header {
+  font-size: 200%;
+  font-weight: bolder;
+  margin-bottom: 20;
+  /* background-color: blue; */
+  width:800px;
+  border:dashed black;
+  padding-top: 20px;
+}
+
+article {
+  color: green;
+}
+
+article em {
+  color: orange;
+}
+
+footer {
+  margin: 100px 0;
+  color: green;
+}
+
+.email {
+  font-style: italic;
+  color: green;
+}
+
+li {
+  color: blue;
+}
