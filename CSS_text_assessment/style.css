@@ -1,0 +1,132 @@
+/* Import fonts */
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('fonts/quicksand-regular-webfont.woff2') format('woff2'),
+         url('fonts/quicksand-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* General setup */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+html {
+    font-size: 10px;
+}
+body {
+    font-family: open_sansregular;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    letter-spacing: 0.03em;
+    word-spacing: 0.2em;
+}
+
+header {
+    font-family: quicksandregular;
+    font-size: 1.5em;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+a {
+    color: #a66;
+}
+a:focus {
+    color: #5D707F;
+    text-decoration: none;
+}
+a:hover {
+    color: #6D8A96;
+    text-decoration: none;
+}
+
+a:active {
+    color: #a66;
+}
+
+a:visited {
+    color:#082D0F;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    padding:1em;
+    border: 2px solid #a66;
+    margin-bottom: 1em;
+    font-size:1.1em;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+aside h2 + ul {
+    margin-top:0.1em;
+}
+
+aside ul li {
+    line-height: 2em;
+}
+/* section h2 + p {
+    text-indent: 20px;
+} */
